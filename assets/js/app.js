@@ -1,6 +1,19 @@
 $(function() {
 
-    function checkInputType(value, type) {
+    var value = "";
+    var type = "bin"
+
+    if(isInputTypeValid(value, type)) {
+        value = removeSpacesAndChars(value);
+    } else {
+        console.log("invalid input");
+    }
+
+    function removeSpacesAndChars(value) {
+        return value.replace(/ |\t|\n|:|-/gi, ""); //replace empty, tab spaces, newline chars, :, - with ""
+    }
+
+    function isInputTypeValid(value, type) {
         value = value.trim();
         if(value.length == 0 || value == null) {
             return false
