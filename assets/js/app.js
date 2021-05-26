@@ -2,9 +2,11 @@ $(function() {
 
     var value = "";
     var type = "bin"
+    
+    value = removeSpacesAndChars(value);
 
     if(isInputTypeValid(value, type)) {
-        value = removeSpacesAndChars(value);
+        console.log("valid input")
     } else {
         console.log("invalid input");
     }
