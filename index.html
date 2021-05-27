@@ -11,7 +11,27 @@
 </head>
 
 <body>
-
+    <div>
+        <textarea id="inputVal" cols="30" rows="10" placeholder="Enter value"></textarea>
+        <br>
+        <p>Input Type</p>
+        <select id="inputType">
+            <option value="bin">Binary</option>
+            <option value="dec">Decimal</option>
+            <option value="hex">Hex</option>
+        </select>
+    </div>
+    <div>
+        <p>Output Type</p>
+        <select id="outputType">
+            <option value="bin">Binary</option>
+            <option value="dec">Decimal</option>
+            <option value="hex">Hex</option>
+        </select>
+        <button id="convert">Convert</button>
+    </div>
+    <hr>
+    <textarea id="outputVal" cols="30" rows="10" placeholder="output value" readonly></textarea>
     <script src="./assets/js/app.js"></script>
 </body>
 
