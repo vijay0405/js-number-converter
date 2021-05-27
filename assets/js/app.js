@@ -20,6 +20,7 @@ $(function () {
             $('#outputVal').val(newValue);
             console.log(newValue)
         } else {
+            $('#errorTag').text("(Invalid input)")
             console.log("invalid input");
         }
     })
