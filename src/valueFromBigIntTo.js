@@ -1,3 +1,3 @@
-module.expots = (inputValue, newBase) => {
+module.exports = (inputValue, newBase) => {
     return inputValue.toString(newBase);
 }
