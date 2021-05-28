@@ -1,4 +1,13 @@
 {
     "name" : "@vijay0405/js-number-converter",
-    "version" : "1.0.0"
+    "version" : "1.0.0",
+    "description": "Convert big integer numbers, binary, decimal, hexadecimal",
+    "main": "index.js",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vijay0405/Number-converter.git"
+    },
+    "homepage": "https://github.com/vijay0405/Number-converter",
+    "keywords": ["Binary", "Decimal", "Hexadecimal", "Converter"]
 }
