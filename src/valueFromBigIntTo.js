@@ -1,3 +1,3 @@
-module.expots = (value, newBase) => {
-    return value.toString(newBase);
+module.expots = (inputValue, newBase) => {
+    return inputValue.toString(newBase);
 }

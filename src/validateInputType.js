@@ -4,10 +4,10 @@ module.exports = (inputValue, inputType) => {
         return false
     }
     if (inputType == "bin") {
-        return (/^[01]+$/).test(value); //check if binary
+        return (/^[01]+$/).test(inputValue); //check if binary
     } else if (inputType == "dec") {
-        return (/^[0123456789]+$/).test(value); //check if decimal
+        return (/^[0123456789]+$/).test(inputValue); //check if decimal
     } else if (inputType == "hex") {
-        return (/^[0-9a-fA-F]+$/).test(value); //check if hexadecimal
+        return (/^[0-9a-fA-F]+$/).test(inputValue); //check if hexadecimal
     }
 }

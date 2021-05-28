@@ -1,8 +1,8 @@
-module.exports = (value, currBase) => {
+module.exports = (inputValue, currBase) => {
     if (currBase === 16) {
-        value = '0x' + value;
+        inputValue = '0x' + inputValue;
     } else if (currBase === 2) {
-        value = '0b' + value;
+        inputValue = '0b' + inputValue;
     }
-    return BigInt(value);
+    return BigInt(inputValue);
 }
