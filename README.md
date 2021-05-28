@@ -1,5 +1,8 @@
 # @vijay0405/js-number-converter
 
+[![npm (scoped)](https://img.shields.io/npm/v/@vijay0405/js-number-converter.svg)](https://www.npmjs.com/package/@vijay0405/js-number-converter)
+
+
 Convert binary, decimal, big integer numbers, hexadecimal
 
 ## Install
@@ -13,6 +16,13 @@ npm i @vijay0405/js-number-converter
 
 ```js
 const convert = require("@vijay0405/js-number-converter");
+
+/*
+Available types
+Binary - "bin", 
+Decimal - "dec", 
+Hexadecimal - "hex" 
+*/
 
 //convert(inputValue, inputType, outputType)
 
