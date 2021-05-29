@@ -31,7 +31,7 @@ convert("158742613876433232361948262226774047556604", "dec", "hex");
 
 
 ```
-### [Demo](http://www.vijay0405.in/number-converter/)
+### [Demo](http://www.vijay0405.in/js-number-converter/)
 
 
 ## Contributing
